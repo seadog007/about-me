@@ -124,6 +124,7 @@
 		background-size: 4620px auto;
 		width: 15204px;
 	}
+	
 
 /* Overlay */
 	@-moz-keyframes overlay { 0% { opacity: 0; } 100% { opacity: 1; } }
