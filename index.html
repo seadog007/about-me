@@ -1,20 +1,19 @@
 <!DOCTYPE HTML>
 <!--
-	Aerial by HTML5 UP
+	Identity by HTML5 UP
 	html5up.net | @n33co
 	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
 -->
 <html>
 	<head>
-		<title>About Me - seadog007</title>
-		<meta http-equiv="content-type" content="text/html; charset=utf-8" />
-		<meta name="description" content="" />
-		<meta name="keywords" content="" />
+    <title>About Me - seadog007</title>
+		<meta charset="utf-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1" />
-		<!--[if lte IE 8]><script src="assets/js/ie/html5shiv.js"></script><![endif]-->
+		<!--[if lte IE 8]><script src="assets/js/html5shiv.js"></script><![endif]-->
 		<link rel="stylesheet" href="assets/css/main.css" />
-		<!--[if lte IE 8]><link rel="stylesheet" href="assets/css/ie8.css" /><![endif]-->
 		<!--[if lte IE 9]><link rel="stylesheet" href="assets/css/ie9.css" /><![endif]-->
+		<!--[if lte IE 8]><link rel="stylesheet" href="assets/css/ie8.css" /><![endif]-->
+    <noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
     <script>
       (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
       (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
@@ -26,40 +25,85 @@
 
     </script>
 	</head>
-	<body class="loading">
-		<div id="wrapper">
-			<div id="bg"></div>
-			<div id="overlay"></div>
-			<div id="main">
+	<body class="is-loading">
 
-				<!-- Header -->
-					<header id="header">
-						<h1>海豹</h1>
-						<p>弱弱的Coder &nbsp;&bull;&nbsp; 尤理衡 &nbsp;&bull;&nbsp; Jasper Yu</p>
-						<nav>
-							<ul>
-								<li><a href="https://twitter.com/007seadog" class="icon fa-twitter"><span class="label">Twitter</span></a></li>
-								<li><a href="https://fb.me/seadog007" class="icon fa-facebook"><span class="label">Facebook</span></a></li>
-								<li><a href="skype:007seadog@gmail.com?chat" class="icon fa-skype"><span class="label">Skype</span></a></li>
-								<li><a href="steam://friends/add/76561198138537011" class="icon fa-steam"><span class="label">Steam</span></a></li>
-								<li><a href="https://github.com/seadog007" class="icon fa-github"><span class="label">Github</span></a></li>
-								<li><a href="mailto:007seadog@gmail.com" class="icon fa-envelope-o"><span class="label">Email</span></a></li>
+		<!-- Wrapper -->
+			<div id="wrapper">
+
+				<!-- Main -->
+					<section id="main">
+						<header>
+							<span class="avatar"><img src="images/avatar.png" alt="" /></span>
+							<h1>海豹</h1>
+							<p>弱弱的Coder &nbsp;&bull;&nbsp; 尤理衡 &nbsp;&bull;&nbsp; Jasper Yu</p>
+						</header>
+						<!--
+						<hr />
+						<h2>Extra Stuff!</h2>
+						<form method="post" action="#">
+							<div class="field">
+								<input type="text" name="name" id="name" placeholder="Name" />
+							</div>
+							<div class="field">
+								<input type="email" name="email" id="email" placeholder="Email" />
+							</div>
+							<div class="field">
+								<div class="select-wrapper">
+									<select name="department" id="department">
+										<option value="">Department</option>
+										<option value="sales">Sales</option>
+										<option value="tech">Tech Support</option>
+										<option value="null">/dev/null</option>
+									</select>
+								</div>
+							</div>
+							<div class="field">
+								<textarea name="message" id="message" placeholder="Message" rows="4"></textarea>
+							</div>
+							<div class="field">
+								<input type="checkbox" id="human" name="human" /><label for="human">I'm a human</label>
+							</div>
+							<div class="field">
+								<label>But are you a robot?</label>
+								<input type="radio" id="robot_yes" name="robot" /><label for="robot_yes">Yes</label>
+								<input type="radio" id="robot_no" name="robot" /><label for="robot_no">No</label>
+							</div>
+							<ul class="actions">
+								<li><a href="#" class="button">Get Started</a></li>
 							</ul>
-						</nav>
-					</header>
+						</form>
+						<hr />
+						-->
+						<footer>
+							<ul class="icons">
+								<li><a href="https://twitter.com/007seadog" class="fa-twitter">Twitter</a></li>
+								<li><a href="https://www.instagram.com/i_dont_know_what_should_i_put" class="fa-instagram">Instagram</a></li>
+                <li><a href="https://fb.me/seadog007" class="fa-facebook">Facebook</a></li>
+                <li><a href="skype:007seadog@gmail.com?chat" class="fa-skype">Skype</a></li>
+                <!--<li><a href="mailto:007seadog@gmail.com" class="fa-envelope-o">Email</a></li>-->
+                <li><a href="steam://friends/add/76561198138537011" class="fa-steam">Steam</a></li>
+                <li><a href="https://github.com/seadog007" class="fa-github">Github</a></li>
+							</ul>
+						</footer>
+					</section>
 
 				<!-- Footer -->
 					<footer id="footer">
-						<span class="copyright" style="display:none">&copy; Untitled. Design: <a href="http://html5up.net">HTML5 UP</a>.</span>
+						<ul class="copyright" style="display:none">
+							<li>Design: <a href="http://html5up.net">HTML5 UP</a></li>
+						</ul>
 					</footer>
 
 			</div>
-		</div>
-		<!--[if lte IE 8]><script src="assets/js/ie/respond.min.js"></script><![endif]-->
-		<script>
-			window.onload = function() { document.body.className = ''; }
-			window.ontouchmove = function() { return false; }
-			window.onorientationchange = function() { document.body.scrollTop = 0; }
-		</script>
+
+		<!-- Scripts -->
+			<!--[if lte IE 8]><script src="assets/js/respond.min.js"></script><![endif]-->
+			<script>
+				if ('addEventListener' in window) {
+					window.addEventListener('load', function() { document.body.className = document.body.className.replace(/\bis-loading\b/, ''); });
+					document.body.className += (navigator.userAgent.match(/(MSIE|rv:11\.0)/) ? ' is-ie' : '');
+				}
+			</script>
+
 	</body>
 </html>
